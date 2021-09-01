@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+<style>
+   label {
+    font-weight: 600;
+    color: #000;  
+}
+body {
+  background: red;
+  
+}
+textarea {
+  vertical-align:middle;
+}
+
+table{
+  font-family: Calibri; 
+  color:black; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:left; 
+  background-color: lightblue; 
+  border: 1px solid black;
+ /* margin-top: 5; */
+}
+
+  
+  </style>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</head>
+
+ 
+<body>
+<br><br>
+
+<table cellpadding = "3" cellspacing="0" class="container">
+ 
+<tr class="col-sm-12">
+<td style="color:#fff; background: #495057; text-transform:uppercase">Section 5 Dog Details</td>
+</tr>
+<tr class="col-sm-6">
+    <td>
+    <label class="col-sm-2"><input type="checkbox" style="margin-right:10px">Service Dogs</label>
+    <label class="col-sm-2"><input type="checkbox" style="margin-right:10px">Unregistered</label>
+    <label class="col-sm-2"><input type="checkbox" style="margin-right:10px">Rescue Shelter</label>
+    </td>
+</tr>
+</table> 
+<table cellpadding = "5" class="container">
+<tr>
+    <td>
+        <label class="col-sm-2"><u>Dog1</u></label>    
+    </td>
+</tr>
+<tr class="col-sm-12">
+    <td class="col-sm-6 form-group">
+        <label  class="col-sm-4" for="name-f">Dogname</label>
+        <input class="col-sm-6 form-group" type="text" class="" name="fname" id="name-f" required>
+    </td>
+    <td class="col-sm-4 form-group">
+        <label  class="col-sm-4 form-group" for="name-l">Breed</label>
+         <select  class="col-sm-6 form-group"  class="">
+            <option value="Select">Select</option>
+        </select>
+    </td>
+    <td class="col-sm-2 form-group">
+        <input type="checkbox" style="margin-right:10px">Mixed Breed
+    </td>
+    
+</tr>
+<tr class="col-sm-12">  
+    <td>
+    <label  class="col-sm-4 form-group" for="email">DO1B of Dog</label>
+     <input  class="col-sm-6 form-group" type="email" class="" name="email" id="email" required>
+    </td>
+</tr>
+<tr class="col-sm-12">  
+    <td class="col-sm-6 form-group control-group">
+        <label class="col-sm-4 form-group"  for="address-1">Gender</label>
+        <input type = "radio" name="g1">Male
+        <input type = "radio" name="g1">Female
+    </td>
+<td class="col-sm-4 form-group control-group">
+    <label class="col-sm-4 form-group"   for="address-2">Licence Free</label>
+    <input  class="col-sm-6 form-group"  type="address" class="" name="address" id="address-2" required>
+</td>
+   
+</tr>
+
+<tr class="col-sm-12">
+    <td class="col-sm-6 form-group control-group">
+        <label class="col-sm-4 form-group"  for="name-l">Primary Color</label>
+         <select class="col-sm-6 form-group">
+            <option value="Select">Select</option>
+        </select>
+    </td>
+    <td class="col-sm-4 form-group">
+        <label  class="col-sm-4 form-group" for="name-l">Secondary color</label>
+         <select  class="col-sm-6 form-group"  class="">
+            <option value="Select">Select</option>
+        </select>
+    </td>
+    
+    
+</tr>
+
+<tr class="col-sm-12">
+    <td class="col-sm-6 form-group control-group">
+        <label class="col-sm-4 form-group"  for="name-l">Vaccination Date</label>
+        <input  class="col-sm-4 form-group"  type="address" class="" name="address" id="address-2" required>
+        <input  type = "radio" name="g2">1 Year
+        <input  type = "radio" name="g2">3 Year
+    
+
+    </td>
+    <td class="col-sm-4 form-group">
+        <label  class="col-sm-4 form-group" for="name-l">Vaccination Expiry</label>
+        <input  class="col-sm-6 form-group"  type="address" class="" name="address" id="address-2" required>
+    </td>
+    
+    
+</tr>
+
+<tr class="col-sm-12">  
+    <td class="col-sm-6 form-group control-group">
+        <label class="col-sm-4 form-group"  for="address-1">Microchips</label>
+        <input type = "radio" name="m">Yes 
+        <input type = "radio" name="m">No
+    </td>
+<td class="col-sm-4 form-group control-group">
+    <label class="col-sm-4 form-group"   for="address-2">Rabis Tag No.</label>
+    <input  class="col-sm-6 form-group"  type="address" class="" name="address" id="address-2" required>
+</td>
+   
+</tr>
+
+
+</table>
+<table cellpadding = "5" class="container">
+    <tr class="col-sm-6">
+
+<tr class="col-sm-6">
+    <td class="col-sm-6 form-group">
+        <label  class="col-sm-2" for="name-f">Dog Licence Fees</label>
+        <input class="col-sm-2 form-group" type="text" class="" name="fname" id="name-f" required>
+    </td>   
+    </tr>
+    
+     <tr class="col-sm-12">
+        <td class="col-sm-12 form-group">
+            <label class="col-sm-2"  for="name-l">Note</label>
+            <textarea  class="col-sm-9 form-group"  type="address" class="" name="address" id="address-2" required></textarea>
+
+        </td>
+    </tr>
+</tr>
+</table>
+
+ <tr>   
+   <div class="container">
+    <div class="text-left" style="margin-top :10px ;margin-left:-15px " >
+    <button type="button" class="btn btn-primary">SUBMIT</button>
+</div>
+</div>
+
+</tr>
+
+
+
+</body>
+</html>
